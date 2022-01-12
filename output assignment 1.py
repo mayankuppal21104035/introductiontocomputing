@@ -16,7 +16,7 @@ Tax is:  800.0
 ANSWER 3
 enter your SID: 21104035
 enter your name: Mayank
-enetr your gender(F/M/U): M
+enter your gender(F/M/U): M
 enter your coursename: Python
 enter your CGPA: 9.5
 Student: [21104035, 'Mayank', 'M', 'Python', 9.5]
