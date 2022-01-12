@@ -35,7 +35,7 @@ print('ANSWER 3')
 #getting input from student
 sid=int(input('enter your SID: '))
 a=input('enter your name: ')
-b=input('enetr your gender(F/M/U): ')
+b=input('enter your gender(F/M/U): ')
 cn=input('enter your coursename: ')
 cg=float(input('enter your CGPA: '))
 #forming the list
