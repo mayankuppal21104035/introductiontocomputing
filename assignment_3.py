@@ -176,16 +176,39 @@ print()
 
 #Answer 7
 print("Answer 7")
-#Using Recursion
-def Fibonacci(n):
-    if n==1:
-        return 0
-    elif n==2:
-        return 1
-    else:
-        return Fibonacci(n-1)+Fibonacci(n-2)
-n=int(input("Enter the number:"))
-print(Fibonacci(n))
+#getting the input from user of number  of terms
+n=int(input("Enter the number of terms:"))
+#Writing the first 2 terms
+a1=0
+a2=1
+count=0
+if (n<0):
+    print("Please Enter positive number:")
+elif n==2:
+    print(a2)
+else:
+    print("The Fibonacci Series is:")
+    while count<n:
+        print(a1)
+        n=a1+a2
+        a1=a2
+        a2=n
+        count=count+1
+#Initializing the values
+a1=0
+a2=1
+sum=0
+#Applying the condition
+for i in range(n):
+    sum+=a1
+    a3=a1+a2
+    a1=a2
+    a2=a3
+avg=sum/n
+print("The average of the fibonacci series is:",avg)
+print()
+   
+    
 
 
 #Answer 8(a)
